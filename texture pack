@@ -1,0 +1,15 @@
+└── 📁<texturePackName>
+    └── 📁textures
+        └── <textureName>.png
+    └── 📁skyBoxes
+        └── 📁<skyBoxName>
+            └── .jpg
+            └── .jpg
+            └── .jpg
+            └── .jpg
+            └── .jpg
+            └── .jpg
+    └── 📁models
+        └── <modelName>.glb
+    └── 📁css
+        └── <cssFileName>.css
