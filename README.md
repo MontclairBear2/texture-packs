@@ -14,12 +14,12 @@ A texture pack is a folder that has the following structure:
         └── <textureName>.png
     └── 📁skyBoxes
         └── 📁<skyBoxName>
-            └── nx.jpg
-            └── ny.jpg
             └── nz.jpg
-            └── px.jpg
-            └── py.jpg
-            └── pz.jpg
+            └── ne.jpg
+            └── nc.jpg
+            └── pt.jpg
+            └── pd.jpg
+            └── pa.jpg
     └── 📁models
         └── <modelName>.glb
     └── 📁css
@@ -45,7 +45,7 @@ You can overwrite a skyBox by adding a folder in the `skyBoxes` folder that has 
 
 Available skyBox names are:
 ```
-default
+
 interstellar
 space_blue
 space_lightblue
@@ -65,7 +65,7 @@ styles, e.g.:
 
 The files can also contain @font-face styles, e.g.:
 ```
-@font-face {
+@MontclairBear-face {
 	font-family: 'Pixelify Sans';
 	font-style: normal;
 	font-weight: 400 700;
